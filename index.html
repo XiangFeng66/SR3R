@@ -164,22 +164,25 @@
 
   <!-- Pipeline Section -->
   <section class="section">
-    <div class="container is-max-desktop">
-      <h3 class="title is-3" style="text-align:left;">Framework Overview</h3>
+  <div class="container is-max-desktop">
+    <h3 class="title is-3" style="text-align:left;">
+      Framework Overview
+    </h3>
 
-      <figure class="image" style="display:flex; justify-content:center; margin-top:1.2rem; margin-bottom:0.4rem;">
-        <img
-          src="static/images/Pipeline.png"
-          alt="REALM Pipeline"
-          style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-      </figure>
+    <figure class="image"
+      style="display:flex; justify-content:center; margin-top:1.2rem; margin-bottom:0.2rem;">
+      <img
+        src="static/images/Pipeline.png"
+        alt="REALM Pipeline"
+        style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+    </figure>
 
-      <p class="subtitle is-5"
-        style="margin-top:0.4rem; margin-bottom:2rem; text-align:justify; text-align-last:left; line-height:1.55;">
-        Given two LR input views, a feed-forward 3DGS backbone produces an LR 3DGS, which is then densified via Gaussian Shuffle Split to form a structural scaffold. The LR views are upsampled and processed by our mapping network: a ViT encoder with feature refinement integrates LR 3DGS-aware cues, and a ViT decoder performs cross-view fusion. The Gaussian offset learning module then predicts residual offsets to the dense scaffold, yielding the final HR 3DGS for high-fidelity rendering.
-      </p>
-    </div>
-  </section>
+    <p class="subtitle is-5"
+      style="margin:0; margin-bottom:2rem; text-align:justify; text-align-last:left; line-height:1.55;">
+      Given two LR input views, a feed-forward 3DGS backbone produces an LR 3DGS, which is then densified via Gaussian Shuffle Split to form a structural scaffold. The LR views are upsampled and processed by our mapping network: a ViT encoder with feature refinement integrates LR 3DGS-aware cues, and a ViT decoder performs cross-view fusion. The Gaussian offset learning module then predicts residual offsets to the dense scaffold, yielding the final HR 3DGS for high-fidelity rendering.
+    </p>
+  </div>
+</section>
 
   <!-- Pipeline Section -->
   <section class="section">
