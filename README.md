@@ -1,2 +1,2 @@
-# Sparse4DGS
-[AAAI2026] Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction
+# SR3R
+SR3R: Rethinking Super-Resolution 3D Reconstruction With Feed-Forward Gaussian Splatting
